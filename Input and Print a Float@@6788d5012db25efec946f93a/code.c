@@ -4,5 +4,6 @@ int main()
 {
     float a;
     printf("your enetered: ");
-    scanf("%d",&a)
+    scanf("%d",&a);
+    return 0;
 }
