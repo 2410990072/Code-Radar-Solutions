@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 char* welcome() {
-    int radius;
+    float radius;
     printf("");
-    scanf("%d",&radius);
-    printf("Area: %d\n",3.14*pow(radius,2));
+    scanf("%f",&radius);
+    printf("Area: %.2f\n",3.14*pow(radius,2));
     return 0;
 }
