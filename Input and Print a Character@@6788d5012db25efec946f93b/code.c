@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char a[];
-    scxanf("%c",&a);
-    printf("You entered: %c\n");
+    char ch;
+    printf("");
+    scanf("%c",&ch);
+    printf("You entered: %c\n",ch);
     
     return 0;
 }
