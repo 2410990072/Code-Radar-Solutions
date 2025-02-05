@@ -2,8 +2,9 @@
 
 int main()
 {
-    float a=3.14;
-    printf("you entered: ");
-    scanf("%d",&a);
+    float a;
+    printf("");
+    scanf("%f",&a);
+    printf("You entered: " )
     return 0;
 }
