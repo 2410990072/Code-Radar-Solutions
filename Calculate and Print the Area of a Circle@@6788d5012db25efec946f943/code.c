@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include<math.h>
 
-char* welcome() {
+int main() {
     float radius;
     printf("");
     scanf("%f",&radius);
