@@ -8,7 +8,7 @@ int main() {
             gcd=i;
         }
     }
-    printf("gcd of %d and %d is: %d\n",a,b,gcd);
+    printf("");
 
     return 0;
 }
