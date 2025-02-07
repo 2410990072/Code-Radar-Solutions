@@ -8,7 +8,7 @@ int main() {
             gcd=i;
         }
     }
-    printf("");
+    printf(gcd);
 
     return 0;
 }
