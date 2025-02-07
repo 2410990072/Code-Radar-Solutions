@@ -2,7 +2,7 @@
 
 int main() {
     int cp,sp;
-    scxanfg("%d %d",&cp,&sp);
+    scanf("%d %d",&cp,&sp);
     if(cp>sp)
     printf("Loss");
     else if(cp<sp)
