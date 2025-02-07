@@ -15,6 +15,8 @@ int main() {
     printf("%.2f*%.2f=%.2f\n",a,b,a*b);
     else if(operator=='/')
     printf("%.2f/%.2f=%.2f\n",a,b,a/b);
+    else
+    printf("error");
 
     return 0;
 }
