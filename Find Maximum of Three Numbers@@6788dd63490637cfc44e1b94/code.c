@@ -9,7 +9,7 @@ int main() {
     else if(b>=a && b>=c){
         max=b;
     }
-    else(c>=a && c>=b){
+    else{
         max=c;
     }
     
