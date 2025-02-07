@@ -2,7 +2,7 @@
 
 int main() {
     int grade;
-    sxanf("%d",&grade);
+    scanf("%d",&grade);
     if(grade>=90)
     printf("A");
     else if(grade>=80 && grade<=90)
