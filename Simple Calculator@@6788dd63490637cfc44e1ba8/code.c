@@ -3,9 +3,7 @@
 int main() {
     float a,b;
     char oper;
-    printf("");
     scanf("%c",&oper);
-    printf("");
     scanf("%f %f",&a,&b);
     if(operator=='+')
     printf("%.2f+%.2f=%.2f\n",a,b,a+b);
