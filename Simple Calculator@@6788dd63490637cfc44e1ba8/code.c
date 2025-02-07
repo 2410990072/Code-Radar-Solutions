@@ -7,13 +7,13 @@ int main() {
     scanf("%c",&oper);
     printf("");
     scanf("%d %d",&a,&b);
-    if(operator==+)
+    if(operator=='+')
     printf("%.2f+%.2f=%.2f\n",a,b,a+b);
-    else if(operator==-)
+    else if(operator=='-')
     printf("%.2f-%.2f=%.2f\n",a,b,a-b);
-    else if(operator==*)
+    else if(operator=='*')
     printf("%.2f*%.2f=%.2f\n",a,b,a*b);
-    else if(operator==/)
+    else if(operator=='/')
     printf("%.2f/%.2f=%.2f\n",a,b,a/b);
 
     return 0;
