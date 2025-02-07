@@ -12,7 +12,7 @@ int main() {
     else(c>=a && c>=b){
         max=c;
     }
-
+    printf("%d\n",max);
 
     return 0;
 }
