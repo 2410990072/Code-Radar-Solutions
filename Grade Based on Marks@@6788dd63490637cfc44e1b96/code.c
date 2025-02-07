@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* welcome() {
+int main() {
     int grade;
     sxanf("%d",&grade);
     if(grade>=90)
