@@ -2,23 +2,45 @@
 int main()
 {
     int d;
-    char dayname;
-    printf("enter your weeek day: ");
     scanf("%d",&d);
-    if(d>0 && d<=7) {
-        dayname=(d==1)?"sunday":
-                (d==2)?"monday":
-                (d==3)?"tuesday":
-                (d==4)?"wednesday":
-                (d==5)?"thursday":
-                (d==6)?"friday":
-                (d==7)?"saturday": printf("invalid day");
-        printf("conditional operator: my day is &s\n",dayname);
-
+    if(d==1)
+        printf("31");
+    else if(d==2){
+        printf("28");
     }
-    else{
-        printf("day is between i to 7\n");
+    else if(d==3){
+        printf("31");
     }
+    else if(d==4){
+        printf("30");
+    }
+    else if(d==5){
+        printf("31");
+    }
+    else if(d==6){
+        printf("30");
+    }
+    else if(d==7){
+        printf("31");
+    }
+    else if(d==8){
+        printf("31");
+    }
+    else if(d==9){
+        printf("30");
+    }
+    else if(d==10){
+        printf("31");p
+    }
+    else if(d==11){
+        printf("30");
+    }
+    else if(d==12){
+        printf("31");
+    }
+    else 
+    printf("Incvalid month");
+    
 
     return 0;
 }
