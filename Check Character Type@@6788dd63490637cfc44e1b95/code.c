@@ -4,7 +4,7 @@
 
 void main() {
     char a;
-    scanf("%c",&);
+    scanf("%c",&a);
     printf("%s",isdigit(a) ? "Digit":(isalpha(a) ? (strchr("aeiuoAEIOU",a) ? "Vowel": "Consonant"):"Special Character"));
     
     
