@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d",&a,&b);
     if(LSB==1)
     printf("Set");
-    else if(LSB==0)
+    else
     printf("Not Set");
 
 
