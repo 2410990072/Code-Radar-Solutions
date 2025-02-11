@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%d",&a);
+    int num;
+    scanf("%d",&num);
     printf((num&(1<<31)) ? "Set\n": "Not Set\n");
     return 0;
 }
