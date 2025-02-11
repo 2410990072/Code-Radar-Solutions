@@ -22,7 +22,7 @@ int main()
     else if(d==9)
         printf("30");
     else if(d==10)
-        printf("31");p
+        printf("31");
     else if(d==11)
         printf("30");
     else if(d==12)
