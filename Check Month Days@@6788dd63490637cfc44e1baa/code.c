@@ -18,7 +18,7 @@ int main()
     else if(d==7)
         printf("31");
     else if(d==8)
-        printf("31")
+        printf("31");
     else if(d==9)
         printf("30");
     else if(d==10)
@@ -26,7 +26,7 @@ int main()
     else if(d==11)
         printf("30");
     else if(d==12)
-        printf("31")
+        printf("31");
     else 
     printf("Incvalid month");
     
