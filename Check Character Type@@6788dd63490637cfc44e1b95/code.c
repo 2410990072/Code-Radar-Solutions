@@ -8,5 +8,4 @@ void main() {
     printf("%s",isdigit(a) ? "Digit":(isaplpha(a) ? (strchr("aeiuoAEIOU",a) ? "Vowel": "Consonant"):"Special Character"));
     
     
-
 }
