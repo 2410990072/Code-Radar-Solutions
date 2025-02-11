@@ -5,9 +5,9 @@ int main() {
     scanf("%c",&light);
     if(light='R')
     printf("Stop");
-    else if(light=='G')
+    else if(light='G')
     printf("Go");
-    else if(light=='Y')
+    else if(light='Y')
     printf("Slow Down");
     else 
     printf("Invalid input");
