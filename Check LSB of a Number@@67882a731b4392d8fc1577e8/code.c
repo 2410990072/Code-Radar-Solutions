@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int LSB;
-    scanf("%d",&LSB);
-    if(LSB==1)
-    printf("Set");
-    else
-    printf("Not Set");
+    int a;
+    scanf("%d",&a);
+    printf("%s",a&1 ? "Set":"Not Set");
+    
 
 
     return 0;
