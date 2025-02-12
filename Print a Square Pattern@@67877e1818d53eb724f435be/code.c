@@ -2,10 +2,10 @@
 
 int main() {
     int i, j;
-    int n = 5; 
-    for(i = 0; i < n; i++) {
+    int N; 
+    for(i = 0; i < N; i++) {
         
-        for(j = 0; j < n; j++) {
+        for(j = 0; j < N; j++) {
             printf("*");
         }
         
