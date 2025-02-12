@@ -4,12 +4,8 @@ int main() {
     double num1, num2, result;
     char operator;
     scanf("%lf", &num1);
-
-    printf("(+, -, *, /): ");
     scanf(" %c", &operator); 
     scanf("%lf", &num2);
-
-   
     if (operator == '+') {
         result = num1 + num2;
         printf("%.2lf\n", result);
@@ -23,7 +19,7 @@ int main() {
         printf("%.2lf\n", result);
     }
     else if (operator == '/') {
-        if (num2 != 0) {  // Check to prevent division by zero
+        if (num2 != 0) { 
             result = num1 / num2;
             printf("%.2lf\n", result);
         } else {
