@@ -4,7 +4,7 @@ int main() {
     float a,b;
     char oper;
     scanf("%c",&oper);
-    scanf("%f %f",&a,&b);
+    scanf("%lf %lf",&a,&b);
     if(oper=='+')
     printf("%lf + %lf=%.2lf\n",a,b,a+b);
     else if(oper=='-')
