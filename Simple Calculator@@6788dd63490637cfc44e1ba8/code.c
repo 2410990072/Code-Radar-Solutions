@@ -22,7 +22,8 @@ int main() {
         if (num2 != 0) { 
             result = num1 / num2;
             printf("%.2lf\n", result);
-        } else {
+        } 
+        else{
             printf("error\n");
         }
     } 
