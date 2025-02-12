@@ -3,16 +3,16 @@
 #include <stdio.h>
 
 int main() {
-    int i,j,N,space;
-    printf("enter number of row: ",N);
+    int i,j,N;
     scanf("%d",&N);
-    for(i=N;i>=1;i--){
-        for(space=1;space<=N-i;space++){
+    for(i=5;i>=1;i--){
+        for(j=1;j<5-i;j++){
             printf(" ");
         }
-        for(j=1;j<=2*i-1;j++){
+        for(j=1;j<=(2*i-1);j++){
             printf("*");
         }
+    }
         printf("\n");
     }
     
