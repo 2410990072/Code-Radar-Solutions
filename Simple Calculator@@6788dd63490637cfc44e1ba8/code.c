@@ -23,10 +23,11 @@ int main() {
             result = num1 / num2;
             printf("%.2lf\n", result);
         } 
-        else{
+        
+    } 
+    else{
             printf("error\n");
         }
-    } 
    
 
     return 0;
