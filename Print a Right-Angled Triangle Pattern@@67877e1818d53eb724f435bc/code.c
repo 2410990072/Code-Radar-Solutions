@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 int main() {
-    for(int i=1;i<=5;i++){
-      for(int j=1;j<=5-i;j++){
+    int N;
+    for(int i=1;i<=N;i++){
+      for(int j=1;j<=N-i;j++){
             printf(" ");
         }
         for(int j=1;j<=i;j++){
