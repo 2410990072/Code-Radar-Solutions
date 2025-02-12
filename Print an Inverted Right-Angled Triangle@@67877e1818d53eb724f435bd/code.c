@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 int main() {
-    int i,j,rows,space;
+    int i,j,N,space;
     printf("enter number of row: ");
-    scanf("%d",&rows);
-    for(i=rows;i>=1;i--){
-        for(space=1;space<=rows-i;space++){
+    scanf("%d",&N);
+    for(i=N;i>=1;i--){
+        for(space=1;space<=N-i;space++){
             printf(" ");
         }
         for(j=1;j<=2*i-1;j++){
