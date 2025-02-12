@@ -4,10 +4,10 @@ int main()
     int N;
     printf("enter your number: ");
     scanf("%d",&N);
-    int i=1;
+    int i=0;
     while(i<=N)
     {
-        printf("%d\n",i);
+        printf("%d ",i);
         i++;
     }
         return 0;
