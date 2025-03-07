@@ -2,7 +2,7 @@
 
 int main() {
     int i,j,rows,space;
-    printf("enter number of rows: ");
+    printf(" ");
     scanf("%d",&rows);
     for(i=1;i<=rows;i++){
         for(space=1;space<=rows-i;space++){
