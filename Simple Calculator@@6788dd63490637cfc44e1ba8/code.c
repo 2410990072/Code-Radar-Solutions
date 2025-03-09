@@ -5,15 +5,15 @@ int main() {
     char operator;
 
     // Input first number
-    printf("Enter first number: ");
+    printf("");
     scanf("%lf", &num1);
 
     // Input operator
-    printf("Enter operator (+, -, *, /): ");
+    printf("");
     scanf(" %c", &operator);  // space before %c to consume any leftover newline character
 
     // Input second number
-    printf("Enter second number: ");
+    printf("");
     scanf("%lf", &num2);
 
     // Perform the operation based on the operator
@@ -32,7 +32,7 @@ int main() {
             if (num2 != 0) {
                 printf("Result: %.2lf\n", num1 / num2);
             } else {
-                printf("Error: Division by zero is not allowed.\n");
+                printf("Error");
             }
             break;
         default:
