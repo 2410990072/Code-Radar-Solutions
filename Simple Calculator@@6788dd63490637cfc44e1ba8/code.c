@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
 int a,b;
 char c;
@@ -24,7 +23,6 @@ switch(c){
     default:
     printf("error");
     return 0;
-
 }
 }
 
