@@ -9,5 +9,5 @@ int main()
     for(int j=0;j<2*stars-1;j++) printf("*");
     printf("\n");
   }  
-    return 0;
+  return 0;
 }
