@@ -1,22 +1,13 @@
 #include<stdio.h>
 int main()
 {
-  int i,j,space,rows;
-  scanf("%d",&rows);
-   for(i=1;i<=rows;i++){
-      for(space=1;space<=rows-i;space++){
-        printf("*");
-      }
-  printf("\n");
-  }
-  for(i=rows-1;i>=1;i--){
-      for(space=1;space<=rows-i;space++){
-        printf(" ");
-      }
-      for (j=1;j<=(2*i-1);j++){
-        printf("*");
-      }  
-  }
-  printf("\n");  
+  int n;
+  scanf("%d",&n);
+  for(int i=1;i<=2*n-1;i++){
+    int stars=i<=n ? i:2*n-1;
+    for(int j=0;j<n-stars;j++) printf(" ");
+    for(int j=0;j<2*stars-1;j++) printf("*");
+    printf("\n");
+  }  
     return 0;
 }
