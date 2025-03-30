@@ -1,17 +1,21 @@
 #include<stdio.h>
+
 void fibonacciSeries(int n);
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
-    if(n<=0){
+    scanf("%d", &n); // Get the input
+    if (n <= 0) {
         printf("Invalid input\n");
         return 0;
     }
-    fibonacciSeries(n);
+    fibonacciSeries(n); // Call the function to print the Fibonacci series
     return 0;
 }
-void fibonacciSeries(int n){
-    int a=0,b=1,next;
+
+void fibonacciSeries(int n) {
+    int a = 0, b = 1, next;
+
     // Special case for n = 1
     if (n >= 1) printf("%d\n", a);
 
@@ -23,6 +27,6 @@ void fibonacciSeries(int n){
         next = a + b;
         printf("%d\n", next);
         a = b; // Update a to the previous Fibonacci number
-        b = next;
-}
+        b = next; // Update b to the current Fibonacci number
+    }
 }
