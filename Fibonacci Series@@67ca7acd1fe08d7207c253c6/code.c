@@ -38,3 +38,4 @@ void generateFibonacci(int n) {
     printf("\n"); // To print a newline at the end
 }
 
+
