@@ -9,7 +9,7 @@ int main() {
         printf("Invalid input\n");
         return 0; // Exit if the input is invalid
     }
-    generateFibonacci(5); // Generate and print the Fibonacci series
+    generateFibonacci(int n); // Generate and print the Fibonacci series
     return 0;
 }
 
