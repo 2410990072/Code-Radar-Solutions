@@ -14,20 +14,20 @@ int main() {
 }
 
 void fibonacciseries(int n) {
-    // Declare an array to store Fibonacci numbers
-    int fib[n]; 
+    // Variables to store the previous two Fibonacci numbers
+    int a = 0, b = 1, next;
 
-    // Initializing the first two numbers of the Fibonacci sequence
-    fib[0] = 0;
-    fib[1] = 1;
+    // Special case for n = 1
+    if (n >= 1) printf("%d\n", a);
 
-    // Print the first two Fibonacci numbers
-    if (n >= 1) printf("%d\n", fib[0]);
-    if (n >= 2) printf("%d\n", fib[1]);
+    // Special case for n = 2
+    if (n >= 2) printf("%d\n", b);
 
-    // Generate and print the remaining Fibonacci numbers
-    for (int i = 2; i < n; i++) {
-        fib[i] = fib[i - 1] + fib[i - 2];
-        printf("%d\n", fib[i]);
+    // Generate the remaining Fibonacci numbers
+    for (int i = 3; i <= n; i++) {
+        next = a + b;
+        printf("%d\n", next);
+        a = b; // Update a to be the previous number
+        b = next; // Update b to be the current number
     }
 }
